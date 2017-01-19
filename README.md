@@ -15,6 +15,8 @@ More models coming! We also plan to add definitions for other frameworks
 in future, probably `tiny-dnn` and `tensorflow` first. Contributions are
 welcome.
 
+See also imagenet classification [demo.ipynb](demo.ipynb)
+
 ## Models
 
 All models were validated to produce reported accuracy using
