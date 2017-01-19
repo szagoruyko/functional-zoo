@@ -27,7 +27,7 @@ To load weights in Python first do `pip install hickle`, then:
 
 ```python
 import hickle as hkl
-weights = hlk.load('resnet-18-export.hkl')
+weights = hkl.load('resnet-18-export.hkl')
 ```
 
 And the `weights` will be a dict of numpy arrays. See the notebooks for more
