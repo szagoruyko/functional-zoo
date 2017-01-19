@@ -8,7 +8,7 @@ more convenient. This repo contains model definitions in this functional way,
 with pretrained weights for some models.
 
 Weights are serialized as a dict of arrays in `hdf5`, so should be easily
-loadable in other frameworks. Thanks to @edgarriba we have <cpp_parser> for
+loadable in other frameworks. Thanks to @edgarriba we have [cpp_parser](cpp_parser) for
 loading weights in C++.
 
 More models coming! We also plan to add definitions for other frameworks
