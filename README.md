@@ -40,6 +40,7 @@ layers for speed. It is not recommended to use them for finetuning.
 |:------|:--------:|:--------:|:--------:|:----:|
 | NIN | [nin-export.ipynb](nin-export.ipynb) | 32.96, 12.29 | [url](https://s3.amazonaws.com/pytorch/h5models/nin-export.hkl) | 33 MB |
 | ResNet-18 (fb) | [resnet-18-export.ipynb](resnet-18-export.ipynb) | 30.43, 10.76 | [url](https://s3.amazonaws.com/pytorch/h5models/resnet-18-export.hkl) | 42 MB |
+| ResNet-18-AT | [resnet-18-at-export.ipynb](resnet-18-at-export.ipynb) | 29.44, 10.12 | [url](https://www.dropbox.com/s/z092wmrgyqn4ys5/resnet-18-at-export.hkl?dl=0) | 44.1 MB |
 | ResNet-34 (fb) | [resnet-34-export.ipynb](resnet-34-export.ipynb) | 26.72, 8.74 | [url](https://s3.amazonaws.com/pytorch/h5models/resnet-34-export.hkl) | 78.3 MB |
 | WRN-50-2 | [wide-resnet-50-2-export.ipynb](wide-resnet-50-2-export.ipynb) | 22.0, 6.05 | [url](https://s3.amazonaws.com/pytorch/h5models/wide-resnet-50-2-export.hkl) | 246 MB |
 
