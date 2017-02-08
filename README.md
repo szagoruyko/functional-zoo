@@ -1,6 +1,8 @@
 functional-zoo
 ==============
 
+Model definitions and pretrained weights for PyTorch and Tensorflow
+
 PyTorch, unlike lua torch, has autograd in it's core, so using modular
 structure of `torch.nn` modules is not necessary, one can easily allocate
 needed Variables and write a function that utilizes them, which is sometimes
@@ -12,10 +14,10 @@ loadable in other frameworks. Thanks to @edgarriba we have [cpp_parser](cpp_pars
 loading weights in C++.
 
 More models coming! We also plan to add definitions for other frameworks
-in future, probably `tiny-dnn` and `tensorflow` first. Contributions are
-welcome.
+in future, probably `tiny-dnn` first. Contributions are welcome.
 
-See also imagenet classification [demo.ipynb](demo.ipynb)
+See also imagenet classification with PyTorch [demo.ipynb](demo.ipynb)
+
 
 ## Models
 
@@ -32,6 +34,7 @@ weights = hkl.load('resnet-18-export.hkl')
 
 And the `weights` will be a dict of numpy arrays. See the notebooks for more
 examples.
+
 
 ### Folded
 
