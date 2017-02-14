@@ -41,6 +41,8 @@ examples.
 Models below have batch_norm parameters and statistics folded into convolutional
 layers for speed. It is not recommended to use them for finetuning.
 
+#### ImageNet
+
 | model | notebook | val error | download | size |
 |:------|:--------:|:--------:|:--------:|:----:|
 | NIN | [nin-export.ipynb](nin-export.ipynb) | 32.96, 12.29 | [url](https://s3.amazonaws.com/pytorch/h5models/nin-export.hkl) | 33 MB |
@@ -48,6 +50,20 @@ layers for speed. It is not recommended to use them for finetuning.
 | ResNet-18-AT | [resnet-18-at-export.ipynb](resnet-18-at-export.ipynb) | 29.44, 10.12 | [url](https://www.dropbox.com/s/z092wmrgyqn4ys5/resnet-18-at-export.hkl?dl=0) | 44.1 MB |
 | ResNet-34 (fb) | [resnet-34-export.ipynb](resnet-34-export.ipynb) | 26.72, 8.74 | [url](https://s3.amazonaws.com/pytorch/h5models/resnet-34-export.hkl) | 78.3 MB |
 | WRN-50-2 | [wide-resnet-50-2-export.ipynb](wide-resnet-50-2-export.ipynb) | 22.0, 6.05 | [url](https://s3.amazonaws.com/pytorch/h5models/wide-resnet-50-2-export.hkl) | 246 MB |
+
+
+#### Fast Neural Style
+
+Notebook: [fast-neural-style.ipynb](fast-neural-style.ipynb)
+
+Models:
+
+| model | download | size |
+|:------|:--------:|:----:|
+| candy.hkl | [url](https://s3.amazonaws.com/pytorch/h5models/fast-neural-style/candy.hkl) | 7.1 MB |
+| feathers.hkl | [url](https://s3.amazonaws.com/pytorch/h5models/fast-neural-style/feathers.hkl) | 7.1 MB |
+| wave.hkl | [url](https://s3.amazonaws.com/pytorch/h5models/fast-neural-style/wave.hkl) | 7.1 MB |
+
 
 ### Models with batch normalization
 
