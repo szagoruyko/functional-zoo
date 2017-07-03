@@ -45,7 +45,7 @@ layers for speed. It is not recommended to use them for finetuning.
 
 | model | notebook | val error | download | size |
 |:------|:--------:|:--------:|:--------:|:----:|
-| VGG-16 | [vgg-16.ipynb](vgg-16.ipyng) | 30.09, 10.69 | url coming | 528 MB |
+| VGG-16 | [vgg-16.ipynb](vgg-16.ipynb) | 30.09, 10.69 | url coming | 528 MB |
 | NIN | [nin-export.ipynb](nin-export.ipynb) | 32.96, 12.29 | [url](https://s3.amazonaws.com/pytorch/h5models/nin-export.hkl) | 33 MB |
 | ResNet-18 (fb) | [resnet-18-export.ipynb](resnet-18-export.ipynb) | 30.43, 10.76 | [url](https://s3.amazonaws.com/pytorch/h5models/resnet-18-export.hkl) | 42 MB |
 | ResNet-18-AT | [resnet-18-at-export.ipynb](resnet-18-at-export.ipynb) | 29.44, 10.12 | [url](https://www.dropbox.com/s/z092wmrgyqn4ys5/resnet-18-at-export.hkl?dl=0) | 44.1 MB |
