@@ -15,7 +15,7 @@ def make_dot(var, params=None):
             require grad (TODO: make optional)
     """
     if params is not None:
-        assert isinstance(params.values()[0], Variable)
+        assert all(isinstance(p, Variable) for p in params.values())
         param_map = {id(v): k for k, v in params.items()}
 
     node_attr = dict(style='filled',
