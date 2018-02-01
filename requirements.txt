@@ -1,2 +1,3 @@
 hickle
 graphviz
+pytorchviz
